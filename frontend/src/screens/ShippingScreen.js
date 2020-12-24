@@ -25,7 +25,7 @@ const dispatch = useDispatch()
             <h1>Shipping</h1>
             <Form onSubmit={submitHandler}>
             <Form.Group controlId='address'>
-                    <Form.Label>Address </Form.Label>
+                    <Form.Label>Address  : </Form.Label>
                     <Form.Control type='text' 
                                   placeholder='Enter Address'
                                   required
