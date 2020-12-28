@@ -39,14 +39,14 @@ const PaymentScreen = ({ history }) => {
             onChange={(e) => setPaymentMethod(e.target.value)}
           />
 {/* //like we can add as many payment methods */}
-{/* <Form.Check
+<Form.Check
             type="radio"
-            label=" PhonePay"
-            id="PhonePay"
+            label=" Cash on Delivery"
+            id="cashOnDelivery"
             name="paymentMethod"
-            value="PhonePay"
+            value="cashOnDelivery"
             onChange={(e) => setPaymentMethod(e.target.value)}
-          /> */}
+          />
         </Col>
 
         <Button type="submit" variant="primary">
