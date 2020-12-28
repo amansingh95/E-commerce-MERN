@@ -28,7 +28,7 @@ const PaymentScreen = ({ history }) => {
         <Form.Group>
           <Form.Label as="legend">Select Method</Form.Label>
        
-        <Col>
+        <Col className='py-3'>
           <Form.Check
             type="radio"
             label="PayPal or Credit Card"
@@ -38,15 +38,15 @@ const PaymentScreen = ({ history }) => {
             checked
             onChange={(e) => setPaymentMethod(e.target.value)}
           />
-
-<Form.Check
+{/* //like we can add as many payment methods */}
+{/* <Form.Check
             type="radio"
             label=" PhonePay"
             id="PhonePay"
             name="paymentMethod"
             value="PhonePay"
             onChange={(e) => setPaymentMethod(e.target.value)}
-          />
+          /> */}
         </Col>
 
         <Button type="submit" variant="primary">
